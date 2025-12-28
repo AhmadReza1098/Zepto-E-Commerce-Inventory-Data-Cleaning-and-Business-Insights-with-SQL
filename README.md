@@ -46,4 +46,13 @@ CREATE TABLE zepto_inventory (
 ALTER TABLE zepto_inventory
 ADD COLUMN sku_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY FIRST;
 
-   
+
+**2. Quick Checks**
+
+SELECT *
+FROM zepto_inventory
+LIMIT 10;
+
+SELECT COUNT(*) AS total_rows
+FROM zepto_inventory;
+undefined   
