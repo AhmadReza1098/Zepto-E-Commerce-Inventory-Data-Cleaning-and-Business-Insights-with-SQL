@@ -27,7 +27,7 @@ This SQL project analyzes a Zepto-style grocery inventory dataset (from Kaggle) 
 ```sql
 DROP TABLE IF EXISTS zepto_inventory;
 USE zepto;
-```sql
+
 CREATE TABLE zepto_inventory (
 category VARCHAR(120),
 name VARCHAR(150) NOT NULL,
