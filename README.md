@@ -24,22 +24,31 @@ This SQL project analyzes a Zepto-style grocery inventory dataset (from Kaggle) 
   
    ## Project workflow
    **1. Database & table creation**
-   undefined
-   USE zepto;
+   DROP TABLE IF EXISTS zepto_inventory;
 
+USE zepto;
+
+-- 1. Create table in database
 CREATE TABLE zepto_inventory (
-  category VARCHAR(120),
-  name VARCHAR(150) NOT NULL,
-  mrp DECIMAL(10,2),
-  discountPercent DECIMAL(5,2),
-  availableQuantity INT,
-  discountedSellingPrice DECIMAL(10,2),
-  weightInGms INT,
-  outOfStock VARCHAR(50),
-  quantity INT
+    category               VARCHAR(120),
+    name                   VARCHAR(150) NOT NULL,
+    mrp                    DECIMAL(10,2),
+    discountPercent        DECIMAL(5,2),
+    availableQuantity      INT,
+    discountedSellingPrice DECIMAL(10,2),
+    weightInGms            INT,
+    outOfStock             VARCHAR(50),
+    quantity               INT
 );
 
+-- Add synthetic primary key
 ALTER TABLE zepto_inventory
 ADD COLUMN sku_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY FIRST;
-undefined
+
+-- Quick sample
+SELECT *
+FROM zepto_inventory
+LIMIT 10;
+
+
 
