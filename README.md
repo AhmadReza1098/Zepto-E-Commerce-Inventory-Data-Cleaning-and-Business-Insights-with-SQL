@@ -43,4 +43,6 @@ quantity INT
 -- Add synthetic primary key
 ALTER TABLE zepto_inventory
 ADD COLUMN sku_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY FIRST;
+` ```
+
 
