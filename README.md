@@ -1,0 +1,4 @@
+# Zepto-E-Commerce-Inventory-Data-Cleaning-and-Business-Insights-with-SQL
+
+## Project Overview
+This project is an end-to-end SQL case study on Zepto’s e-commerce inventory data, covering database design, data cleaning, and business analysis. A raw Kaggle inventory CSV was imported into MySQL, then transformed into a structured zepto_inventory table with a synthetic sku_id key and cleaned flags for invalid stock, price, and quantity, producing a reliable subset (is_valid_row = 1) for analysis. Using this clean data, multiple business-driven queries were written to profile categories, estimate inventory value, analyze discount patterns, calculate price-per-gram, and examine stock availability, enabling insights into which categories drive the most potential revenue, which products are heavily discounted or overpriced, and where stockouts and data-quality issues could harm sales and decision-making.
