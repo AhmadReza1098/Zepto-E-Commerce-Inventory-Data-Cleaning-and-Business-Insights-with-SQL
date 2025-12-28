@@ -41,6 +41,8 @@ CREATE TABLE zepto_inventory (
   outOfStock VARCHAR(50),
   quantity INT
 );
+
+### 2. Quick Checks
 -- Sample rows
 SELECT *
 FROM zepto_inventory
