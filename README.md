@@ -1,3 +1,5 @@
+![Zepto Inventory Dashboard](images/Zepto.jpg)
+
 # 🛒 data-analysis-zepto-inventory-sql
 
 Analyzing Zepto-style inventory data using **SQL** to uncover pricing, discount, and stock insights for real-world e‑commerce decision-making.
@@ -179,6 +181,7 @@ Aspiring Data Analyst – SQL & BI
 - 🔗 https://github.com/AhmadReza1098  
 
 Feel free to use or adapt this project as part of your analytics portfolio.
+
 
 
 
